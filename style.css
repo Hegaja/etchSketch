@@ -11,14 +11,14 @@
 
   text-align: center;
   background: rgba(240, 207, 101, 0.918);
-  color:  rgb(99, 76, 1);
+  color: rgb(99, 76, 1);
 }
 a {
   color: rgb(255, 240, 191);
   text-decoration: none;
 }
 a:hover {
-  color:  #000;
+  color: #000;
 }
 
 body {
@@ -42,7 +42,6 @@ body {
   border-color: rgba(240, 207, 101, 0.918);
   border-radius: 8px;
   border-width: 5px;
-  
 }
 
 #gridArena div {
@@ -50,17 +49,3 @@ body {
   vertical-align: top;
 }
 
-@media only screen and (max-height: 420px) {
-  #gridArena {
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -70%);
-  }
-}
-
-@media only screen and (max-width: 420px) {
-  
-  h1 {
-    font-size: 25px;
-  }
-}
