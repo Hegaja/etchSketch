@@ -1,0 +1,50 @@
+.header {
+  text-align: center;
+}
+
+#footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 30px;
+  width: 100%;
+
+  text-align: center;
+  background: #039b03;
+  color: rgb(243, 25, 232);
+}
+a {
+  color: #00ff00;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(243, 25, 232);
+}
+
+body {
+  background: rgba(238, 212, 125, 0.658);
+}
+
+#gridArena {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 600px;
+  font-size: 0px;
+  max-width: 90%;
+  max-height: 65%;
+
+  /* Border layout */
+  border-style: solid;
+  border-color: rgba(240, 207, 101, 0.918);;
+  border-radius: 8px;
+  border-width: 5px;
+  
+}
+
+#gridArena div {
+  display: inline-block;
+  vertical-align: top;
+}
